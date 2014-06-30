@@ -10,6 +10,7 @@
 
 
 ### Bug fixes
+  * sphere-common: config - sphere_debug=true environment variable now works as expected
 
 ### Known Issues
 
