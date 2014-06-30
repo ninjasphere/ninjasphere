@@ -1,3 +1,18 @@
+# 0.0.5 (2014-07-XX)
+
+" TBD "
+
+### Headline
+
+### Features
+  * sphere-common: All service calls and return values are not validated at the target
+  * sphere-common: Data in a device batch 'set' is now validated
+
+
+### Bug fixes
+
+### Known Issues
+
 # 0.0.4 (2014-06-27)
 
 " I can't stop loving hue :sunglasses: "
