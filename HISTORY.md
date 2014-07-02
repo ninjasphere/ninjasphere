@@ -1,6 +1,6 @@
 # 0.0.5 (2014-07-XX)
 
-" Bullet with notify wings (depite all my rage I am still just a configuration page) :metal:"
+" Bullet with notify wings (depite all my rage I am still just a configuration page) [:metal:](http://open.spotify.com/track/4qMzPtAZe0C9KWpWIzvZAP)"
 
 ### Headline
 
@@ -18,7 +18,7 @@
 
 # 0.0.4 (2014-06-27)
 
-" I can't stop loving hue :sunglasses: "
+" I can't stop loving hue [:sunglasses:](http://open.spotify.com/track/7apQOIhWnJnhGeuY9Muqu8) "
 
 ### Headline
 Intelligence has began! Contextual lights managing Hue & LIFX.
@@ -51,7 +51,7 @@ Intelligence has began! Contextual lights managing Hue & LIFX.
 
 # 0.0.3 (2014-06-20)
 
-" I'm a socket man :rocket: "
+" I'm a socket man [:rocket:](http://open.spotify.com/track/2zvot9pY2FNl1E94kc4K8M) "
 
 ### Headline
 Much more complete Sphere API, and some example applications using the ZigBee socket.
@@ -77,7 +77,7 @@ Much more complete Sphere API, and some example applications using the ZigBee so
 
 # 0.0.2 (2014-06-13)
 
-" apt, apt, baby :icecream: "
+" apt, apt, baby [:icecream:](http://open.spotify.com/track/3U8271rQxTvf5SWXULGeO9) "
 
 ### Headline
 Initial `thing` API
@@ -103,7 +103,7 @@ Initial `thing` API
 
 # 0.0.1 (2014-06-06)
 
-" If you're appy and you know it clap your hands :clap: :clap: "
+" If you're appy and you know it clap your hands [:clap: :clap:](http://open.spotify.com/track/5jigkWsgdwcjsdkZWN26zm) "
 
 ### Headline
 Added JSON-Schema defined RPC-over-MQTT Services (required for apps)
