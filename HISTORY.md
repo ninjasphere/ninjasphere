@@ -1,6 +1,6 @@
 # 0.0.5 (2014-07-XX)
 
-" TBD "
+" Bullet with notify wings (depite all my rage I am still just a configuration page) :metal:"
 
 ### Headline
 
