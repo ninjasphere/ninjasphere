@@ -7,7 +7,9 @@
 ### Features
   * sphere-common: All service calls and return values are not validated at the target
   * sphere-common: Data in a device batch 'set' is now validated
-
+  * sphere-schemas: Notification and configuration screen schemas
+  * sphere-common: Driver configuration and notification events
+  * driver-hue: Notifications
 
 ### Bug fixes
   * sphere-common: config - sphere_debug=true environment variable now works as expected
