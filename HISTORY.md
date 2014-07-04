@@ -3,7 +3,7 @@
 " Bullet with notify wings (depite all my rage I am still just a configuration page) [:metal:](http://open.spotify.com/track/4qMzPtAZe0C9KWpWIzvZAP)"
 
 ### Headline
-Various stability improvements and tweaks under the hood in prepraration for notifications.
+Various stability improvements and tweaks under the hood in preparation for notifications.
 
 ### Features
   * sphere-common: All service calls and return values are now validated at the target
