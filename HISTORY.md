@@ -1,20 +1,27 @@
-# 0.0.5 (2014-07-XX)
+# 0.0.5 (2014-07-04)
 
 " Bullet with notify wings (depite all my rage I am still just a configuration page) [:metal:](http://open.spotify.com/track/4qMzPtAZe0C9KWpWIzvZAP)"
 
 ### Headline
+Various stability improvements and tweaks under the hood in prepraration for notifications.
 
 ### Features
-  * sphere-common: All service calls and return values are not validated at the target
+  * sphere-common: All service calls and return values are now validated at the target
   * sphere-common: Data in a device batch 'set' is now validated
   * sphere-schemas: Notification and configuration screen schemas
   * sphere-common: Driver configuration and notification events
-  * driver-hue: Notifications
+  * driver-hue: Notifications in the driver
+  * mqtt-bridgeify: Push more telemetry up to the cloud
 
 ### Bug fixes
+  * sphere-director: Implemented a watchdog for internal services to improve stability
   * sphere-common: config - sphere_debug=true environment variable now works as expected
+  * sphere-intelligence: Various tweaks and fixes in logic of ContextualLights
+  * driver-lifx: Fix issue with renamed bulbs
+  * various: Less chatty, more informative logging
 
 ### Known Issues
+  * If no progress is received during calibration, the progress will dissappear after 45s
 
 # 0.0.4 (2014-06-27)
 
