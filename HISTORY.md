@@ -1,6 +1,6 @@
 # 0.0.5 (2014-07-04)
 
-" Bullet with notify wings (depite all my rage I am still just a configuration page) [:metal:](http://open.spotify.com/track/4qMzPtAZe0C9KWpWIzvZAP)"
+" Bullet with notify wings (despite all my rage I am still just a configuration page) [:metal:](http://open.spotify.com/track/4qMzPtAZe0C9KWpWIzvZAP)"
 
 ### Headline
 Various stability improvements and tweaks under the hood in preparation for notifications.
