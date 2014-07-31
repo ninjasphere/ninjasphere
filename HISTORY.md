@@ -1,3 +1,20 @@
+# 0.0.6 (2014-07-25)
+" I've been syncing about you [:satellite:](http://open.spotify.com/track/5ojjL1ypuOtqqOpb4QiM1M) "
+
+### Headline
+Data syncing between Home Cloud and the Ninja Cloud in preparation for thing intelligence. Rewrite of the Philips Hue driver in [Go](http://golang.org/) for improved performance and reduced memory footprint.
+
+### Features
+  * driver-hue: Rewritten in Go
+  * sphere-home-cloud: Added support for data model syncing to/from ninja cloud
+  * sphere-schemas: Extraction of timeseries properties from protocol events
+  * sphere-home-cloud: Timeseries datapoints are now published to the cloud
+
+### Bug fixes
+  * sphere-common: Log errors in device batch set operations
+
+### Known Issues
+
 # 0.0.5 (2014-07-04)
 
 " Bullet with notify wings (despite all my rage I am still just a configuration page) [:metal:](http://open.spotify.com/track/4qMzPtAZe0C9KWpWIzvZAP)"
