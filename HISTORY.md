@@ -1,3 +1,21 @@
+# 0.0.8 (2014-08-07)
+
+### Headline
+
+### Bug fixes
+
+### Known Issues
+
+# 0.0.7 (2014-07-31)
+
+### Headline
+Ok, not a big release this week. A lot of heavy-lifting going on behind the scenes.
+
+### Bug fixes
+  * sphere-intelligence: Fix over-eager logging when grabbing weather, and an error message.
+
+### Known Issues
+
 # 0.0.6 (2014-07-25)
 " I've been syncing about you [:satellite:](http://open.spotify.com/track/5ojjL1ypuOtqqOpb4QiM1M) "
 
