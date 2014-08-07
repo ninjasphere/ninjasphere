@@ -2,9 +2,15 @@
 
 ### Headline
 
+The BLE driver used for positioning has been rewritten in Go(http://golang.org/) freeing up a LOT of ram and cpu time vs. the existing Node.JS version. We're currently doing the same for Lifx, ZigBee and the gesture interface.
+
 ### Bug fixes
 
-### Known Issues
+  * driver-go-ble: Added, saves ~15mb ram. Just advertising for now, device drivers will be added next.
+
+### Bug fixes
+
+  * driver-intelligence: Fixed bug sometimes preventing the contextual lights from working early in the morning.
 
 # 0.0.7 (2014-07-31)
 
