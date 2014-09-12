@@ -1,4 +1,4 @@
-# 0.1.2 (2014-08-07)
+# 0.1.2 (2014-09-12)
 " Wake me up before go wemo [:boom:](http://open.spotify.com/track/5J0S5UgpCwlmEagrqgzvoC) "
 
 ### Headline
