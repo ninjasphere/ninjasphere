@@ -28,6 +28,7 @@ Also, we'll be open-sourcing the first sections of Sphere! Starting with go-sphe
 
   * sphere-web-static: Still no state reflected in the web ui.
   * location: Accuracy has been improved, but the "Production" cloud service has not been updated yet.
+  * driver-go-lifx: Color can't be updated using the dashboard
   
   <img src="https://s3-ap-southeast-2.amazonaws.com/uploads-au.hipchat.com/25403/256486/jrgykF7PFwTdjLW/upload.png" />
 
