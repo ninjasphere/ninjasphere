@@ -1,3 +1,36 @@
+# 0.1.2 (2014-08-07)
+" Wake me up before go wemo [:boom:](http://open.spotify.com/track/5J0S5UgpCwlmEagrqgzvoC) "
+
+### Headline
+
+It's been a massive few weeks. The hardware being done and dusted means we're all totally focused on completing the software. The big (but necessary change) to Go has gone very well, and we're seeing our productivity back to those heady node.js days.
+
+This week *should* see the first release of the iOS mobile application, which we are extremely proud of (Android is next!)
+Also, we'll be open-sourcing the first sections of Sphere! Starting with go-sphere (the base) and driver-go-hue. 
+
+### Features
+
+  * sphere-web-static: Added controls for the 'media-control', 'volume', 'color' and 'brightness' protocols
+  * driver-go-wemo: Added. Exposes 'on-off' channel
+  * driver-go-hue: Much improved. Updates state correctly
+  * driver-go-lifx: Ported from Node.JS. Much lower memory usage than the node version
+  * driver-go-sonos: Added. Exposes 'media-control' and 'volume' channels
+  * sphere-go-homecloud: Added. Initially just updating Thing's locations as they arrive from the cloud. 
+  * sphere-go-led-controller: Added. Controls on-off and light devices using a simple swiping pane interface
+  * sphere-go-gestic: Ported from Node.JS
+
+### Bug fixes
+
+  * sphere-home-cloud: Fix re-syncing of deleted things/rooms
+  * sphere: Massive drop in number of files and their size, which should mean for much faster updates
+  
+### Known Issues
+
+  * sphere-web-static: Still no state reflected in the web ui.
+  * location: Accuracy has been improved, but the "Production" cloud service has not been updated yet.
+  
+  <img src="https://s3-ap-southeast-2.amazonaws.com/uploads-au.hipchat.com/25403/256486/jrgykF7PFwTdjLW/upload.png" />
+
 # 0.0.8 (2014-08-07)
 
 ### Headline
