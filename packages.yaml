@@ -1,0 +1,82 @@
+# top level metapackage
+ninjasphere-tmp:
+  version: "0.2"
+  dependencies:
+    - ninjasphere-minimal
+    - ninjasphere-drivers
+    - ninjasphere-apps
+
+ninjasphere-drivers:
+  version: "0.1"
+  dependencies:
+    - ninja-go-hue
+    - ninja-go-blecombined
+    - ninja-go-lifx
+    - ninja-go-wemo
+    - ninja-go-sonos
+    - ninja-go-zigbee
+    - ninja-go-chromecast
+    - zigbee-zstack-gateway # this should go away
+
+ninjasphere-apps:
+  version: "0.1"
+  dependencies:
+    - ninja-app-scheduler
+
+# minimal pairable client with no features
+ninjasphere-minimal:
+  version: "0.1"
+  dependencies:
+    - mqtt-bridgeify
+    - sphere-nginx-router
+    - sphere-web-static
+    - sphere-client
+    - sphere-go-homecloud
+    - ninjasphere-setup
+
+# packages required for initial setup, up to the point of updating
+ninjasphere-setup:
+  version: "0.1"
+  dependencies:
+    - sphere-setup-assistant
+    - sphere-go-led-controller
+    - sphere-utils
+    - sphere-updates
+    - ninjasphere-software-support
+    - ninjasphere-hardware-support
+    - ninjasphere-hacking
+
+# these tools are not really required if SSH is disabled, kept for now
+ninjasphere-hacking:
+  version: "0.1"
+  dependencies:
+    - landscape-common
+    - update-motd
+    - jq
+
+# *reliable* third party packages that can be included
+ninjasphere-software-support:
+  version: "0.1"
+  dependencies:
+    - redis-server
+    - mosquitto
+    - mosquitto-clients
+    - nodejs
+    - unattended-upgrades
+    - update-notifier-common
+    - libnss-mdns
+
+# packages that set up core hardware support
+ninjasphere-hardware-support:
+  version: "0.1"
+  dependencies:
+    - serial-console-gadget
+    - zigbee-cc2530-serial
+    - cc2530prog
+    - uim-sysfs
+    - bluez
+    - hardware-led-matrix-support
+    - libbluetooth-dev
+    - sphere-leds
+    - ble-utils
+    - sphere-wireless-conf
