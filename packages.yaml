@@ -61,6 +61,7 @@ ninjasphere-hacking:
 ninjasphere-software-support:
   version: "0.1"
   dependencies:
+    - sphere-system-tweaks
     - redis-server
     - mosquitto
     - mosquitto-clients
