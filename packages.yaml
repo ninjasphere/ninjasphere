@@ -43,6 +43,7 @@ ninjasphere-setup:
     - sphere-setup-assistant
     - sphere-go-led-controller
     - sphere-utils
+    - sphere-global-utils # probably combine later, stops sphere-dev package incompatibility
     - sphere-updates
     - ninjasphere-software-support
     - ninjasphere-hardware-support
