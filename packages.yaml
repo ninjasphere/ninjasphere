@@ -33,7 +33,6 @@ ninjasphere-minimal:
     - sphere-client
     - sphere-go-homecloud
     - sphere-nodejs-director
-    - sphere-schemas
     - ninjasphere-setup
 
 # packages required for initial setup, up to the point of updating
@@ -44,6 +43,7 @@ ninjasphere-setup:
     - sphere-go-led-controller
     - sphere-utils
     - sphere-config
+    - sphere-schemas
     - sphere-global-utils # probably combine later, stops sphere-dev package incompatibility
     - sphere-updates
     - ninjasphere-software-support
