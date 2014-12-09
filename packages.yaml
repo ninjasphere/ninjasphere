@@ -73,7 +73,7 @@ ninjasphere-software-support:
 
 # packages that set up core hardware support
 ninjasphere-hardware-support:
-  version: "0.1"
+  version: "0.1.1"
   dependencies:
     - serial-console-gadget
     - zigbee-cc2530-serial
@@ -85,3 +85,4 @@ ninjasphere-hardware-support:
     - sphere-leds
     - ble-utils
     - sphere-wireless-conf
+    - gestic-driver
