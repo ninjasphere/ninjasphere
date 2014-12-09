@@ -1,5 +1,5 @@
 # top level metapackage
-ninjasphere-tmp:
+ninjasphere:
   version: "0.2"
   dependencies:
     - ninjasphere-minimal
