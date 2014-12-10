@@ -28,8 +28,8 @@ ninjasphere-minimal:
   version: "0.1"
   dependencies:
     - mqtt-bridgeify
-    - sphere-nginx-router
-    - sphere-web-static
+#    - sphere-nginx-router
+#    - sphere-web-static
     - sphere-client
     - sphere-go-homecloud
     - sphere-nodejs-director
