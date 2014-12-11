@@ -35,7 +35,7 @@ ninjasphere-minimal:
     - sphere-nodejs-director
     - ninjasphere-setup
 
-# packages required for initial setup, up to the point of updating
+# packages required for initial factory test and setup, up to the point of updating
 ninjasphere-setup:
   version: "0.1"
   dependencies:
@@ -49,6 +49,7 @@ ninjasphere-setup:
     - ninjasphere-software-support
     - ninjasphere-hardware-support
     - ninjasphere-hacking
+    - ninjasphere-factory-test
 
 # these tools are not really required if SSH is disabled, kept for now
 ninjasphere-hacking:
