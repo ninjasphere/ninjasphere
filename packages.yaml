@@ -16,6 +16,7 @@ ninjasphere-drivers:
     - ninja-go-sonos
     - ninja-go-zigbee
     - ninja-go-chromecast
+    - ninja-broadlink-demo
     - zigbee-zstack-gateway # this should go away
 
 ninjasphere-apps:
