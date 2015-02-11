@@ -23,6 +23,7 @@ ninjasphere-apps:
   version: "0.1"
   dependencies:
     - ninja-app-scheduler
+    - ninja-app-presets
 
 # minimal pairable client with no features
 ninjasphere-minimal:
