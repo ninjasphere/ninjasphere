@@ -24,6 +24,7 @@ ninjasphere-apps:
   dependencies:
     - ninja-app-scheduler
     - ninja-app-presets
+    - ninja-app-security-light
 
 # minimal pairable client with no features
 ninjasphere-minimal:
