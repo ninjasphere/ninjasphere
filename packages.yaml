@@ -37,6 +37,7 @@ ninjasphere-minimal:
     - sphere-go-homecloud
     - sphere-nodejs-director
     - ninjasphere-setup
+    - sphere-ui
 
 # packages required for initial factory test and setup, up to the point of updating
 ninjasphere-setup:
