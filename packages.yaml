@@ -17,6 +17,7 @@ ninjasphere-drivers:
     - ninja-go-zigbee
     - ninja-go-chromecast
     - ninja-broadlink-demo
+    - ninja-samsung-tv
     - zigbee-zstack-gateway # this should go away
 
 ninjasphere-apps:
