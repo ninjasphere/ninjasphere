@@ -42,7 +42,7 @@ ninjasphere-minimal:
 
 # packages required for initial factory test and setup, up to the point of updating
 ninjasphere-setup:
-  version: "0.1"
+  version: "0.2"
   dependencies:
     - sphere-setup-assistant
     - sphere-go-led-controller
@@ -55,6 +55,8 @@ ninjasphere-setup:
     - ninjasphere-hardware-support
     - ninjasphere-hacking
     - ninjasphere-factory-test
+    - sphere-support-agent
+    - ninja-scriptrock
 
 # these tools are not really required if SSH is disabled, kept for now
 ninjasphere-hacking:
