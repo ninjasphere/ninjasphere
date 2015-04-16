@@ -1,6 +1,6 @@
 # top level metapackage
 ninjasphere:
-  version: "1.0.4"
+  version: "1.0.5"
   dependencies:
     - ninjasphere-minimal
     - ninjasphere-drivers
@@ -29,7 +29,7 @@ ninjasphere-apps:
 
 # minimal pairable client with no features
 ninjasphere-minimal:
-  version: "0.1"
+  version: "1.0.5"
   dependencies:
     - mqtt-bridgeify
 #    - sphere-nginx-router
@@ -41,7 +41,7 @@ ninjasphere-minimal:
 
 # packages required for initial factory test and setup, up to the point of updating
 ninjasphere-setup:
-  version: "0.2"
+  version: "1.0.5"
   dependencies:
     - sphere-setup-assistant
     - sphere-go-led-controller
