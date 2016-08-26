@@ -26,6 +26,7 @@ ninjasphere-apps:
     - ninja-app-scheduler
     - ninja-app-presets
     - ninja-app-security-light
+    - ninja-app-homecloud-ui
 
 # minimal pairable client with no features
 ninjasphere-minimal:
