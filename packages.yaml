@@ -1,13 +1,13 @@
 # top level metapackage
 ninjasphere:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - ninjasphere-minimal
     - ninjasphere-drivers
     - ninjasphere-apps
 
 ninjasphere-drivers:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - ninja-go-hue
     - ninja-go-blecombined
@@ -21,7 +21,7 @@ ninjasphere-drivers:
     - zigbee-zstack-gateway # this should go away
 
 ninjasphere-apps:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - ninja-app-scheduler
     - ninja-app-presets
@@ -30,7 +30,7 @@ ninjasphere-apps:
 
 # minimal pairable client with no features
 ninjasphere-minimal:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - mqtt-bridgeify
 #    - sphere-nginx-router
@@ -42,7 +42,7 @@ ninjasphere-minimal:
 
 # packages required for initial factory test and setup, up to the point of updating
 ninjasphere-setup:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - sphere-setup-assistant
     - sphere-go-led-controller
@@ -60,7 +60,7 @@ ninjasphere-setup:
 
 # these tools are not really required if SSH is disabled, kept for now
 ninjasphere-hacking:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - landscape-common
     - update-motd
@@ -68,7 +68,7 @@ ninjasphere-hacking:
 
 # *reliable* third party packages that can be included
 ninjasphere-software-support:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - sphere-system-tweaks
     - redis-server
@@ -81,7 +81,7 @@ ninjasphere-software-support:
 
 # packages that set up core hardware support
 ninjasphere-hardware-support:
-  version: "1.0.10"
+  version: "1.0.11"
   dependencies:
     - serial-console-gadget
     - zigbee-cc2530-serial
